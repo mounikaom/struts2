@@ -58,8 +58,8 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#ehr2ehr">ehr2ehr</a>
+                     <li>
+                     <a class="page-scroll" href="#ehr2ehr">ehr2ehr</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -70,6 +70,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li class="last"><a href="Login.jsp"><span>Login</span></a>
+                     
+                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -125,6 +128,7 @@
             </div>
         </div>
     </section>
+    
 
     <!-- IHDM Grid Section -->
     <section id="ehr2ehr" class="bg-light-gray">

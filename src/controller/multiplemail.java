@@ -17,7 +17,7 @@ import com.sun.mail.smtp.*;
 
 
 @SuppressWarnings("unused")
-public class MailgunMailer {
+public class multiplemail {
 	public static void main(String[] args) throws Exception{
 		/*String host = "mail.hd2mtech.com";
 		String user = "mail.mdtree@hd2mtech.com";
@@ -47,39 +47,51 @@ public class MailgunMailer {
 		System.out.println("sai>>>>");
 		final String to = "cholleti.sai@gmail.com";
 		final String password ="1233454342";
-		send("info@visitreminder.com","jeevank@ihdmtech.com", password,"test");
+         
+		
+		send("info@visitreminder.com","jeevank@ihdmtech.com,mounikareddy.oralla@gmail.com","subject","noise");
 		System.out.println("Mail Sent");
 	}
 	public static boolean send( String from,String to,String subject,String textmessage) {
 //    public static void main(String args[]) throws Exception {
         Properties props = System.getProperties();
-        props.put("mail.smtps.host","smtp.mailgun.org");
+        props.put("mail.smtps.host","mail.ehr2ehr.com");
         props.put("mail.smtps.auth","true");
         Session session = Session.getInstance(props, null);
+        String[] recipients = to.split(",");
+        
+      
         try {
-        Message msg = new MimeMessage(session);
+        	for (String temp : recipients) {
+            Message msg = new MimeMessage(session);
+//        for (String t : recipients)
+//        	address.add((InternetAddress)t);
+        InternetAddress[] address = {new InternetAddress(temp)};
         msg.setFrom(new InternetAddress(from));//from
-        msg.setRecipients(Message.RecipientType.TO,
-        InternetAddress.parse(to, false));
+        msg.setRecipients(Message.RecipientType.TO,address);
+       // InternetAddress.parse(address, false));
         msg.setSubject(subject);
-        msg.setText(textmessage);
+       // msg.setText(textmessage);
         msg.setContent(textmessage, "text/html;");
         msg.setSentDate(new Date());
+        System.out.println("Message" +textmessage);
         SMTPTransport t =
             (SMTPTransport)session.getTransport("smtps");
-        t.connect("smtp.mailgun.com", "postmaster@sandbox4ca47a254d5640e18665e680dcc97ffd.mailgun.org", "mailgunpwd");
+        t.connect("mail.ehr2ehr.com", "admin@ehr2ehr.com", "admin@123");
         t.sendMessage(msg, msg.getAllRecipients());
         System.out.println("Response: " + t.getLastServerResponse());
         //String response=t.getLastServerResponse();
         //if(response.equals("250 Great success")){
         	//t.close();
-        	return true;}
+        	}return true;
         //else{
         	//t.close();
         	//return false;}
     //}
+        }    	
 	catch (MessagingException e) {
         throw new RuntimeException(e);
     }
-	}
+	
+}
 }

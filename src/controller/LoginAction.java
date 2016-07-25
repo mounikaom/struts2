@@ -3,13 +3,13 @@ package controller;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport {
-    private String username;
-    private String password;
+    public String username;
+    public String password;
  
     public String execute() {
  
-        if (this.username.equals("admin")
-                && this.password.equals("admin123")) {
+        if (this.username.equals("admin@ehr2ehr.com")
+                && this.password.equals("admin@123")) {
             return "success";
         } else {
             addActionError(getText("error.login"));

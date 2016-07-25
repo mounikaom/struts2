@@ -16,22 +16,22 @@ public class JavaMail extends ActionSupport {
    /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-private String from;
-//   private String password;
-   private String to;
-   private String subject;
-   private String body;
+	public static final long serialVersionUID = 1L;
+public String from;
+//   public String password;
+   public String to;
+   public String subject;
+   public String body;
 
    static Properties properties = new Properties();
    static
    {
-      properties.put("mail.smtp.host", "smtp.gmail.com");
-      properties.put("mail.smtp.socketFactory.port", "465");
+      properties.put("mail.smtp.host", "mail.ehr2ehr.com");
+      properties.put("mail.smtp.socketFactory.port", "25");
       properties.put("mail.smtp.socketFactory.class",
                      "javax.net.ssl.SSLSocketFactory");
       properties.put("mail.smtp.auth", "true");
-      properties.put("mail.smtp.port", "465");
+      properties.put("mail.smtp.port", "25");
    }
 
    public String execute() 
@@ -44,7 +44,7 @@ private String from;
             protected PasswordAuthentication 
             getPasswordAuthentication() {
             return new 
-            PasswordAuthentication("nishnath.mca@gmail.com", "jeevang1");
+            PasswordAuthentication("admin@ehr2ehr.com", "admin@123");
             }});
 
          Message message = new MimeMessage(session);

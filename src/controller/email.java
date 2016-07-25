@@ -7,28 +7,27 @@ public class email extends ActionSupport {
 	 * 
 	 */
 	
-	private static final long serialVersionUID = 1L;
-	private String email;
-    private String phone;
-    private String noise;
+	public static final long serialVersionUID = 1L;
+	public String email;
+    public String subject;
+    public String noise;
  
     public String execute() {
  
-        if (this.email.equals(" ")
-                && this.phone.equals(" ")&& this.noise.equals(" ")) {
+        if (this.email.equals(" ")&& this.subject.equals(" ")&& this.noise.equals(" ")) {
         	addActionError(getText("error.login"));
             return "error";
         } else {
         	
-        	System.out.println("text:"+noise);
-        	if(MailgunMailer.send(email, "info@ihdmtech.com", "New contact form", noise)){
+        	System.out.println("text:"+email);
+      	if(multiplemail.send("admin@ehr2ehr.com", email, "Subject", noise)){
         	addActionError(getText("mail.success"));
             return "success";}
         	else
         	{
-        		addActionError(getText("mail.error"));
-                return "error";
-        	}
+      		addActionError(getText("mail.error"));
+               return "error";
+     	}
         	
         }
     }
@@ -41,12 +40,12 @@ public class email extends ActionSupport {
         this.email = username;
     }
  
-    public String getPhone() {
-        return phone;
+    public String getSubject() {
+        return subject;
     }
  
-    public void setPhone(String password) {
-        this.phone = password;
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
 	public String getNoise() {

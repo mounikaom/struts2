@@ -23,17 +23,17 @@ public class SendMailSSLG1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Properties props = new Properties();
-		props.put("mail.smtp.host", "smtp.gmail.com");
-		props.put("mail.smtp.socketFactory.port", "465");
+		props.put("mail.smtp.host", "mail.ehr2ehr.com");
+		props.put("mail.smtp.socketFactory.port", "25");
 		props.put("mail.smtp.socketFactory.class",
 				"javax.net.ssl.SSLSocketFactory");
 		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.port", "465");
+		props.put("mail.smtp.port", "25");
 
 		Session session = Session.getDefaultInstance(props,
 			new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("g1mdtree@gmail.com","mdtree.com");
+					return new PasswordAuthentication("admin@ehr2ehr.com","admin@123");
 				}
 			});
 

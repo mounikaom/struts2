@@ -15,14 +15,14 @@ public class contactus extends ActionSupport {
  
     public String execute() {
  
-        if ( this.name.equals(" ")&& this.email.equals(" ")
+        if ( this.name.equals(" ")
                 && this.phone.equals(" ")&& this.message.equals(" ")) {
         	addActionError(getText("error.login"));
             return "error";
         } else {
         	
         	System.out.println("text:"+name+email+message);
-        	if(MailgunMailer.send(name+email+phone, "info@ihdmtech.com", "new contact", message)){
+        	if(ehrmail.send(email, "info@ihdmtech.com", "new contact", message,name,phone)){
         	addActionError(getText("mail.success"));
             return "success";}
         	else
