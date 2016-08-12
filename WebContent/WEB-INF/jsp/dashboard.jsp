@@ -4,14 +4,7 @@
 <head>
 
 <header>
-
-
-
-    <div>
-
-
-
-
+ <div>
     <script>
         (function() {
             /**
@@ -28,7 +21,6 @@
             });
         })();
     </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,17 +56,11 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+</div>
+</header>
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index1">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -89,11 +75,7 @@
                 </button>
 
                 <a href="#page-top" class="i"><img src="img/logo.png" width="70px" ></a>
-
             </div>
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                   <!--<li>-->
@@ -104,168 +86,20 @@
                   <li>
                     <a class="page-scroll" href="#compose">Compose</a>
                   </li>
-                  <li> <a class="page-scroll" href="index.jsp">Log out</a></li>
+                  <li> <a class="page-scroll" href="index1.jsp">Log out</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-
-
-            </archive>
         </div>
         <!-- /.container-fluid -->
-        <archive>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <!--<h1>Welcome TO EHR2EHR</h1>-->
-
-            </div>
-
+        
     </nav>
 
 </body>
 
-</body>
-</div>
-            </div>
-        </div>
 
 
 
-    <!--&lt;!&ndash; Services Section &ndash;&gt;-->
-    <!--<section id="services">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Services</h2>-->
-                    <!--<h3 class="section-subheading text-muted"></h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row text-center">-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Text........</h4>-->
-                    <!--<p class="text-muted"></p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Text.......</h4>-->
-                    <!--<p class="text-muted"></p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-cog fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">text.....</h4>-->
-                    <!--<p class="text-muted"></p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
-
-  --
-    <!-- Team Section -->
-    <!--<section id="team" class="bg-light-gray">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Our Amazing Team</h2>-->
-                    <!--<h3 class="section-subheading text-muted"></h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/team/1.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Employee 1</h4>-->
-                        <!--<p class="text-muted"></p>-->
-                        <!--<ul class="list-inline social-buttons">-->
-                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="http://www.facebook.com/till.mounika"><i class="fa fa-facebook"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/team/2.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Employee 2</h4>-->
-                        <!--<p class="text-muted"></p>-->
-                        <!--<ul class="list-inline social-buttons">-->
-                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/team/3.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Employee 3</h4>-->
-                        <!--<p class="text-muted"></p>-->
-                        <!--<ul class="list-inline social-buttons">-->
-                            <!--<li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>-->
-                            <!--</li>-->
-                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
-                    <!--<p class="large text-muted"></p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
-
-    <!--&lt;!&ndash; Clients Aside &ndash;&gt;-->
-    <!--<aside class="clients">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<a href="#">-->
-                        <!--<img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<a href="#">-->
-                        <!--<img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<a href="#">-->
-                        <!--<img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<a href="#">-->
-                        <!--<img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</aside>-->
     
     <!-- Contact Section -->
     
@@ -275,90 +109,45 @@
      <div class="container">
      <div class="row">
       <div class="col-lg-12 text-center">
-		<h2>
-			COMPOSE
-		</h2>
+		<h2>COMPOSE</h2>
 		</div>
 		</div>
-		
-<!-- 		<p> -->
-			
-<!-- 		</p> -->
-<!-- 		<p> -->
-<!-- 			</p> -->
-<!-- 		<p> -->
-<!-- 			</p> -->
-            <div class="row">
+		 <div class="row">
              <div class="col-md-6">
+             <div class="form-group">
 		<form action="email" method="post">
-		<div class="form-group">
-			<label>Enter Email:</label> <input type="text" name="email" />
-			<label>Enter subject:</label><input type="text" name="subject" ></input>
+		
+<!--  			<label>Enter Email:</label> <input type="text" name="email" /> -->
+<input type="email" class="form-control" placeholder=" TO :- Enter Email Id's *" name="email" required data-validation-required-message="Please enter your Email Id's.">
+                                   <p class="help-block text-danger"></p>
+<input type="text" class="form-control" placeholder="Enter Subject *" name="subject" required data-validation-required-message="Please enter subject.">
+                                     <p class="help-block text-danger"></p>
+<!--  			<label>Enter subject:</label><input type="text" name="subject" ></input> -->
 			</div>
 			</div>
-			</div class="row">
+		
+			<div class="row">
 			<div class="col-lg-12">
+			<div class="form-group">
 			<fieldset>
 				<label for="noise">
 					Make some noise:
 				</label>
-				<div class="form-group">
-				<textarea id="noise" name="noise" class="widgEditor nothing">&lt;p&gt;widgEditor &lt;strong&gt;automatically&lt;/strong&gt; Copy and Paste this URL!&lt;/p&gt;</textarea>
+				<textarea id="noise" name="noise" class="widgEditor nothing">&lt;p&gt;&lt;strong&gt;&lt;/strong&gt; Copy and Paste Template!&lt;/p&gt;</textarea>
 			</fieldset>
 			</div>
 			</div>
+			<div class="clearfix"></div>
+			<div class="col-lg-6 text-center">
+			<div id="success"></div>
+			 <button type="submit" class="btn btn-xl">Send Message</button>
+			 </div>
 			</div>
-			<fieldset class="submit">
-		<input type="submit" value="Send Email" />
-			</fieldset>
-		</form>
-		</div>
+			</form>
+			</div>
 		</div>
 		</section>
-	</div>
-<!--     <section id="#compose"> -->
-<!--         <div class="container"> -->
-<!--             <div class="row"> -->
-<!--                 <div class="col-lg-12 text-center"> -->
-<!--                     <h2 class="section-heading">Compose Here</h2> -->
-<!--                     <h3 class="section-subheading text-muted"></h3> -->
-<!--                 </div> -->
-<!--             </div> -->
-<!--             <div class="row"> -->
-<!--                 <div class="col-lg-12"> -->
-<!--                     <form name="sentMessage" id="contactForm" novalidate> -->
-<!--                         <div class="row"> -->
-<!--                             <div class="col-md-6"> -->
-<!--                                 <div class="form-group"> -->
-<!--                                     <input type="text" class="form-control" placeholder=" TO :- Enter Email Id's *" id="name" required data-validation-required-message="Please enter your name."> -->
-<!--                                     <p class="help-block text-danger"></p> -->
-<!--                                 </div> -->
-<!--                                 <div class="form-group"> -->
-<!--                                     <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address."> -->
-<!--                                     <p class="help-block text-danger"></p> -->
-<!--                                 </div> -->
-<!--                                 <div class="form-group"> -->
-<!--                                     <input type="tel" class="form-control" placeholder="Subject *" id="phone" required data-validation-required-message="Please enter your phone number."> -->
-<!--                                     <p class="help-block text-danger"></p> -->
-<!--                                 </div> -->
-<!--                             </div> -->
-<!--                             <div class="form-group"> -->
-<!--                                 <div class="form-group"> -->
-<!--                                     <textarea class="form-control" placeholder="Your Message body *" id="message" required data-validation-required-message="Please enter a message."></textarea> -->
-<!--                                     <p class="help-block text-danger"></p> -->
-<!--                                 </div> -->
-<!--                             </div> -->
-<!--                             <div class="clearfix"></div> -->
-<!--                             <div class="col-lg-12 text-center"> -->
-<!--                                 <div id="success"></div> -->
-<!--                                 <button type="submit" class="btn btn-xl">Send Message</button> -->
-<!--                             </div> -->
-<!--                         </div> -->
-<!--                     </form> -->
-<!--                 </div> -->
-<!--             </div> -->
-<!--         </div> -->
-<!--     </section> -->
+	
 
     <footer>
         <div class="container">
@@ -597,13 +386,5 @@
             font-style:inherit;
         }
     </style>
-
-
-
-
-
-
-
 </body>
-
 </html>

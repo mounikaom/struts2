@@ -14,20 +14,20 @@
         <action name="LoginAction"
             class="controller.LoginAction">
             <result name="success">WEB-INF/jsp/dashboard.jsp</result>
-            <result name="error">Login.jsp</result>
+            <result name="error">Login2.jsp</result>
         </action>
         <action name="contactus" class="controller.contactus" method="execute">
-            <result name="success">index.jsp</result>
-            <result name="error">Login.jsp</result>
+            <result name="success">index1.jsp</result>
+            <result name="error">Login2.jsp</result>
         </action>
         <action name="email" class="controller.email" method="execute">
             <result name="success">WEB-INF/jsp/dashboard.jsp</result>
-            <result name="error">Login.jsp</result>
+            <result name="error">Login2.jsp</result>
         </action>
-<!--          <action name="login" class="controller.login" method="execute"> -->
-<!--             <result name="success">WEB-INF/jsp/example.jsp</result> -->
-<!--             <result name="error">Login.jsp</result> -->
-<!--         </action> -->
+         <action name="logout" class="controller.LogoutAction" method="execute">
+            <result name="success">index1.jsp</result>
+            <result name="error">Login2.jsp</result>
+        </action>
         
     </package>
 </struts>

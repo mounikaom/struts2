@@ -1,41 +1,41 @@
- <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Login Application </title>
-</head>
- 
-<body>
-<h2>Login Application</h2>
-<s:actionerror />
-<s:form action="LoginAction" method="post">
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login Application</title>
+</head><body>
+<div class="container" align="center">
+<!--   <div id="image"> -->
+<!--     <img src="img/computer.jpg" style="width:640px; height:678"> -->
+<!--   </div> -->
+
+  <div id="loginForm">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Please sign in</h3>
+      </div>
+      <div class="panel-body">
+        <form accept-charset="UTF-8" role="form">
+          <fieldset>
+            <div class="form-group">
+              <input class="form-control" placeholder="E-mail" name="email" type="text">
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!--<h2>Project Heading</h2>-->
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787"></a></p>
-                            <p><a href="http://designmodo.com/startup/?u=787"></a></p>
-<!--                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button> -->
-                        </div>
-                    </div>
-                </div>
+            <div class="form-group">
+              <input class="form-control" placeholder="Password" name="password" type="password" value="">
             </div>
-        </div>
+            <div class="checkbox">
+              <label>
+                <input name="remember" type="checkbox" value="Remember Me">Remember Me
+              </label>
+            </div>
+            <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+          </fieldset>
+        </form>
+      </div>
     </div>
-    <s:textfield name="username" key="label.username" size="20" />
-    <s:password name="password" key="label.password" size="20" />
-    <s:submit method="execute" key="label.login" align="center" />
-</s:form>
+  </div>
+
+</div>
 </body>
-</html>
